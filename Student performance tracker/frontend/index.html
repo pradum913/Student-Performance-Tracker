@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Performance Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Student Performance Tracker</h1>
+
+  <form>
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" name="name" placeholder="Input Disabled" disabled />
+
+    <label for="marks">Marks (out of 100):</label>
+    <input type="number" id="marks" name="marks" placeholder="Input Disabled" disabled />
+
+    <button type="submit" disabled>Add Student</button>
+  </form>
+
+  <h2>Sample Student Records</h2>
+  <table id="student-table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Marks</th>
+      <th>Performance</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Pradum Pathak</td>
+      <td>85</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Ravi Sharma</td>
+      <td>72</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>Anjali Verma</td>
+      <td>94</td>
+      <td>A+</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
